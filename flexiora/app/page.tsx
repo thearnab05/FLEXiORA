@@ -65,39 +65,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* User Input Section */}
-      <section className="py-20 px-6 bg-gray-950">
-        <h2 className="text-4xl font-bold text-center mb-10">
-          Enter Your Details
-        </h2>
 
-        <form className="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
-          <input
-            type="number"
-            placeholder="Current Weight (kg)"
-            className="p-4 rounded-lg bg-gray-800 text-white border border-gray-700"
-          />
-          <input
-            type="number"
-            placeholder="Height (cm)"
-            className="p-4 rounded-lg bg-gray-800 text-white border border-gray-700"
-          />
-          <input
-            type="number"
-            placeholder="Age"
-            className="p-4 rounded-lg bg-gray-800 text-white border border-gray-700"
-          />
-          <select className="p-4 rounded-lg bg-gray-800 text-white border border-gray-700">
-            <option>Gender</option>
-            <option>Male</option>
-            <option>Female</option>
-          </select>
-
-          <button className="md:col-span-2 bg-red-600 hover:bg-red-700 py-4 rounded-lg text-lg font-semibold">
-            Generate My Plan
-          </button>
-        </form>
-      </section>
     </main>
   );
 }
