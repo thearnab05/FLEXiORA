@@ -29,7 +29,7 @@ export default function Home() {
         </h1>
         <p className="text-lg md:text-xl text-gray-300 max-w-3xl mb-8">
           Choose your fitness goal, track your progress, and unlock your
-          ultimate transformation journey with FLEXIORA.
+          ultimate transformation journey with FLEXiORA.
         </p>
         <button className="bg-red-600 hover:bg-red-700 px-8 py-4 rounded-full text-lg font-semibold transition">
           Start Your Journey
