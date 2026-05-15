@@ -65,7 +65,17 @@ export default function Home() {
         </div>
       </section>
 
-
+      {/* Footer */}
+      <footer className="w-full py-10 px-6 border-t border-gray-800 text-center text-gray-500 mt-20">
+        <div className="max-w-4xl mx-auto flex flex-col md:flex-row justify-between items-center">
+          <p>&copy; {new Date().getFullYear()} FLEXiORA. All rights reserved.</p>
+          <div className="flex space-x-6 mt-4 md:mt-0">
+            <a href="#" className="hover:text-white transition">Privacy Policy</a>
+            <a href="#" className="hover:text-white transition">Terms of Service</a>
+            <a href="#" className="hover:text-white transition">Support</a>
+          </div>
+        </div>
+      </footer>
     </main>
   );
 }
